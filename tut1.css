@@ -1,0 +1,39 @@
+body{
+    background: rgba(83, 81, 81, 0.973);
+}
+.box{
+    width: 120px;
+    height: 120px;
+    border:2px solid black;
+    /* opacity: 50%; */
+}
+#box1{
+    background-color:red;
+    /* visibility: hidden; */
+    /* display: none; */
+    position: relative;
+left: 34px;
+z-index: -1;
+
+}
+#box2{
+    background-color:blue;
+    position: relative;
+    z-index: 2;
+}
+#box3{
+    background-color:green;
+    left:-30px;
+    position: relative;
+    z-index: 6;
+}
+#box4{
+    background-color:yellow;
+    position: relative;
+    left: -60px;;
+    z-index: 5;
+}
+.container{
+    display: flex;
+    position: relative;
+}

@@ -1,0 +1,35 @@
+#item2{
+    /* display: inline; */
+}
+#item1{
+    /* display: inline; */
+}
+.container{
+    height: 344px;
+    width:100%;
+    border:5px solid blue;
+    display: flex;
+    flex-direction: row;
+    
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    
+    flex-wrap:wrap ;
+    /* flex-flow: row-reverse wrap; */
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+    align-items: center;
+}
+.item{
+    background-color: orange;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid red;
+    height: 80px;
+    width: 80px;
+    /* margin-top: 50px; */
+}

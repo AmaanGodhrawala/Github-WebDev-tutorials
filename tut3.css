@@ -1,0 +1,12 @@
+.container{
+    font-size: 5px;
+    border: 2px solid red;
+    /* height:300px; */
+    /* width: 300px; */
+}
+#one,#two,#three{
+    /* position: relative; */
+}
+#one{
+    font-size: 5em;
+}
